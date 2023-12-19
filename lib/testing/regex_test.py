@@ -1,6 +1,10 @@
 from distutils.filelist import findall
 import re
 
+import distutils
+print(distutils.__file__)
+
+
 from regex import my_regex
 
 FINDALL_STRING = """
